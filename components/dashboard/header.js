@@ -16,11 +16,11 @@ export function DashboardHeader() {
             className="w-full pl-8 border-primary/20 focus-visible:ring-primary"
           />
         </div>
-        <div className="ml-auto flex items-center space-x-2">
+        {/* <div className="ml-auto flex items-center space-x-2">
           <NotificationPopover />
           <ThemeToggle />
           <UserNav />
-        </div>
+        </div> */}
       </div>
     </div>
   )

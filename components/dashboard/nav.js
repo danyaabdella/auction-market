@@ -20,14 +20,14 @@ export function DashboardNav() {
 
   return (
     <div className="flex h-screen w-64 flex-col border-r bg-muted/30">
-      <div className="p-6">
+      {/* <div className="p-6">
         <Link href="/" className="flex items-center gap-2">
           <div className="h-8 w-8 rounded-full gradient-bg flex items-center justify-center">
             <span className="text-primary-foreground font-bold">A</span>
           </div>
           <span className="text-xl font-bold bg-clip-text text-transparent gradient-bg">AuctionHub</span>
         </Link>
-      </div>
+      </div> */}
       <div className="flex-1 space-y-1 p-2">
         {navigation.map((item) => (
           <Link

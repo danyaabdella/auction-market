@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import {CreateAuctionDialog} from "./create-auction";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -74,10 +75,7 @@ export function MerchantAuctions() {
           <h3 className="text-xl font-semibold">Auctions</h3>
           <p className="text-sm text-muted-foreground">Manage your active and upcoming auctions</p>
         </div>
-        <Button className="gradient-bg border-0">
-          <Plus className="mr-2 h-4 w-4" />
-          Create Auction
-        </Button>
+        <CreateAuctionDialog />
       </div>
       <Table>
         <TableHeader>

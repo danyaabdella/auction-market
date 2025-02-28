@@ -8,9 +8,9 @@ import { MerchantAuctions } from "@/components/dashboard/merchant-auctions"
 export default function DashboardPage() {
   return (
     <div className="flex min-h-screen">
-      <DashboardNav />
+      {/* <DashboardNav /> */}
       <div className="flex-1">
-        <DashboardHeader />
+        {/* <DashboardHeader /> */}
         <div className="container p-6">
           <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
           <div className="mt-8 grid gap-6 md:grid-cols-2">

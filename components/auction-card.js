@@ -34,6 +34,10 @@ export function AuctionCard({ auction }) {
 
   const isEndingSoon = auction.timeLeft.includes("hour") || auction.timeLeft.includes("min")
 
+  const handleCardClick = () => {
+    router.push(`/auctions/${auction.id}`)
+  }
+  
   return (
     <Card className="overflow-hidden border-primary/10 auction-card-hover">
       <CardHeader className="p-0">
